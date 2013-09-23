@@ -43,6 +43,7 @@ sub new {
     socket => $params{socket},
     username => $params{username},
     password => $params{password},
+    replication_user => $params{replication_user},
     timeout => $params{timeout},
     warningrange => $params{warningrange},
     criticalrange => $params{criticalrange},
